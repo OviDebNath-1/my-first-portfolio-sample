@@ -6,22 +6,27 @@
 }
 header{
     background-color:#FFF8F3 ;
+    background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
+    background-position: top left,bottom right;
     padding-top: 51px;
+    background-repeat: no-repeat;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 nav{
-    margin: 5px 230px 722px 159px  ;
-    /* border: 1px solid red; */
+    margin: 0 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
 }
+
+    
+    
+
 .logo h2{
     font-size: 45px ;
 }
@@ -55,3 +60,68 @@ nav li a{
     font-weight: bold;
     
 }
+#banner{
+    /* border: 1px solid red; */
+    margin:46px 37px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+#banner .banner-content{
+    max-width: 585px ;
+}
+
+
+
+
+
+#banner .banner-content h2{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.btn-group{
+    
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-group button{
+    background-color: #FD6E0A;
+    height: 64px;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#banner .banner-image img{
+    max-width: 584px;
+    vertical-align: middle;
+
+}
+
+
+    
+
+    
